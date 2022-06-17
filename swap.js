@@ -17,3 +17,10 @@ x= x+y;
 y = x -y;
 x= x-y;
 console.log('After swap : x =',x, 'y =',y);
+
+//Another process
+var p =2;
+var q =3;
+console.log('Before swap : p =',p, 'q =',q);
+[p,q]=[q,p];
+console.log('After swap : p =',p, 'q =',q);
